@@ -1,0 +1,21 @@
+@import "../../../global.scss";
+
+.button {
+  color: $white;
+  background-color: $primary;
+  border-radius: 5px;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  font-size: 11px;
+
+  &.badge {
+    width: 70px;
+    // height: 25px;
+    padding: 6px;
+  }
+}

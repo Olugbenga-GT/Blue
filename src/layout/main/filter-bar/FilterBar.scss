@@ -1,0 +1,28 @@
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+
+  //   background-color: white;
+  margin: 20px 0px;
+  //   padding: 4px;
+  height: 40px;
+  //   align-self: center;
+  align-items: center;
+  align-content: center;
+  :first-child {
+    // border-radius: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  :last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .filter-bar {
+    display: none;
+  }
+}
