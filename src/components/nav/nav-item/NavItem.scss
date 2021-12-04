@@ -1,0 +1,35 @@
+@import "../../../global.scss";
+
+.nav-item {
+  color: $grey;
+  width: 100%;
+  // min-width: 100px;
+  list-style: none;
+  font-weight: bold;
+  padding: 12px;
+  cursor: pointer;
+  margin-bottom: 8px;
+  &:hover {
+    // color: $primary;
+    .nav-text {
+      color: $primary;
+    }
+  }
+  //   margin: 0px 10px;
+  &.active {
+    border: 1px solid $grey;
+    border-radius: 5px;
+    color: $primary;
+  }
+  i {
+    margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-item {
+    text-align: center;
+    padding: 12px 2px;
+    margin-right: 2px;
+  }
+}

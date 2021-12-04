@@ -1,0 +1,32 @@
+@import "../../global.scss";
+
+.sidebar {
+  width: 12vw;
+  height: 100vh;
+  margin-left: 4vw;
+  min-width: fit-content;
+  padding: 4vh 20px 0px 0px;
+  //   box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.2);
+  //   -webkit-box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.42);
+  //   -moz-box-shadow: 3px 0px 5px -2px rgba(0, 0, 0, 0.42);
+  box-shadow: 2px 0px 4px -3px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 2px 0px 4px -3px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 2px 0px 4px -3px rgba(0, 0, 0, 0.42);
+  .logo {
+    color: $primary;
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  span {
+    font-weight: bold;
+    color: $dark;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    width: fit-content;
+    margin-left: 0px;
+    padding: 4vh 5px 0px 5px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../global.scss";
+
+.filter {
+  background-color: $white;
+  height: 100%;
+  //   width: 120px;
+  flex: 1;
+  color: $dark;
+  border-right: 1px solid $grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  span {
+    :hover {
+      cursor: pointer;
+      color: $primary;
+    }
+  }
+}
